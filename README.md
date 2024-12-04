@@ -2,6 +2,10 @@
 
 Este código utiliza Transfer Learning com a arquitetura pré-treinada VGG16 para classificar imagens de cães e gatos. O código inclui o carregamento dos dados, a construção do modelo, o treinamento inicial, o fine-tuning, a geração de gráficos de precisão e perda, e a exportação do modelo treinado.
 
+**Dataset utilizado**: [Kaggle Cats and Dogs Dataset](https://www.microsoft.com/en-us/download/details.aspx?id=54765)
+
+
+
 ## Dependências
 
 - TensorFlow
