@@ -4,7 +4,7 @@ Este código utiliza Transfer Learning com a arquitetura pré-treinada VGG16 par
 
 **Dataset utilizado**: [Kaggle Cats and Dogs Dataset](https://www.microsoft.com/en-us/download/details.aspx?id=54765)
 
-
+![cat-n-dog](https://github.com/devcaiada/transfer-learning-cat-dog/blob/main/assets/cat_n_dogs.png?raw=true)
 
 ## Dependências
 
@@ -83,6 +83,8 @@ predictions = Dense(1, activation='sigmoid')(x)
 
 model = Model(inputs=base_model.input, outputs=predictions)
 ```
+
+![cat-vs-dog](https://github.com/devcaiada/transfer-learning-cat-dog/blob/main/assets/cats_vs_dogs.png?raw=true)
 
 ### 5. Congelamento das Camadas Base
 
